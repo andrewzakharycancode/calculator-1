@@ -14,16 +14,19 @@ def subtract(num1, num2):
  
 def multiply(num1, num2):
     """Multiply the num1 by num2 and return the result."""
-
+    
     return (num1*num2)
+
 
 def divide(num1, num2):
     """Divide the num1 by num2, returning a floating point."""
-
+    if num2==0:
+        return "/0 is undefined"
+    return (num1/num2)
 
 def square(num1):
     """Return the square of num1."""
-
+    return (num1**2)
 
 def cube(num1):
     """Return the cube of num1."""
